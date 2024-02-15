@@ -8,9 +8,14 @@
 import SwiftUI
 
 extension Font {
-    public static var title: Font {
+    public static var dmTitle: Font {
         get {
-            .custom("Poppins-Light", size: 36)
+            custom("DMSans-Bold", size: 36)
         }
+    }
+        public static var dmBody: Font {
+            get {
+                custom("DMSans-Regular", size: 30)
+            }
     }
 }

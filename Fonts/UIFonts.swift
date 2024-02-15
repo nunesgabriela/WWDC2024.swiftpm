@@ -9,11 +9,12 @@ import UIKit
 
 extension UIFont {
     static func registerFonts(withExtension _extension: String) throws {
-        try Bundle.main
+    guard let urls = Bundle.main
             .urls(
                 forResourcesWithExtension: _extension,
                 subdirectory: nil
-            )?
+            ) else { return }
+       try urls
             .forEach(registerFont)
     }
     
