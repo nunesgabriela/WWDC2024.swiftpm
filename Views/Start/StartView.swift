@@ -17,20 +17,18 @@ struct StartView: View {
                 Text("Oh, glad you came! I thought you would be late.")
                     .font(.dmBody)
                     .foregroundColor(Color("Roxo"))
+                HStack{
+                    NavigationLink(destination: SecondView(),
+                            label: {
+                        Image("Botão")
+                    })
+                    .frame(width: 952, alignment: .trailing)
+                }
             }
             .padding()
-            
-           VStack{
-                NavigationLink(destination: SecondView(),
-                               label: {
-                    Image("Botão")
-                })
-                .frame(width: 500)
-            }
-            .navigationBarBackButtonHidden(true)
         }
+        .navigationBarBackButtonHidden(true)
     }
-        
 }
 
 #Preview {
