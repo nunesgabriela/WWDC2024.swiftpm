@@ -1,11 +1,11 @@
 {
   "images" : [
     {
-      "filename" : "Guten2.heic",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "BotaoFechar.png",
       "idiom" : "universal",
       "scale" : "2x"
     },

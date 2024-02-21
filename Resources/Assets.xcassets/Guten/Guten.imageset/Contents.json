@@ -1,11 +1,11 @@
 {
   "images" : [
     {
+      "filename" : "Guten.heic",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Guten.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
